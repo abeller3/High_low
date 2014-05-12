@@ -1,6 +1,6 @@
 <?php
 // create a number 
-if ($argc < 2) {
+if ($argc < 3) {
 	echo "Hey! I need your name to say hello to you!\n";
 	exit(1);
 }
