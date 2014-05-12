@@ -17,12 +17,12 @@ while ($user_guess != $number)
 // if the guess is lower than the number tell the user "higher"
 { 
 	if ($user_guess < $number) 
-	}
-	fwrite(STDOUT, "Higher!\n");
+	{
+	fwrite(STDOUT, "Not even close! Higher!\n");
 	}	
 	elseif($user_guess > $number) 
 	{
-	fwrite(STDOUT, "Lower! Try again\n");
+	fwrite(STDOUT, "Really? that was your guess? Lower! Try again\n");
 	}
 // if guess and the nuber are the same say "winner!" and end the game
 // ad to the guess count 
@@ -31,7 +31,7 @@ while ($user_guess != $number)
 // end the loop
 }
 
-echo " Good guess! You got it in {$guess} tries\n";
+echo " Finally! You got it in {$guess} tries\n";
 
 
 //set if statements
