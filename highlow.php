@@ -28,7 +28,7 @@ while ($user_guess != $number)
 	$guess++;
 }
 
-echo "You got it in {$guess} tries\n";
+echo " Good guess! You got it in {$guess} tries\n";
 
 
 //set if statements
