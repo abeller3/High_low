@@ -1,6 +1,14 @@
 <?php
 // create a number 
-$number = rand(1,100);
+if ($argc < 2) {
+	echo "Hey! I need your name to say hello to you!\n";
+	exit(1);
+}
+
+define('MIN', $argv[1]);
+define('MAX', $argv[2]);
+
+$number = rand(MIN,MAX);
 $guess = 1;
 // Write the output
 // Notice the space after?
