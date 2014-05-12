@@ -10,16 +10,18 @@ $user_guess= fgets(STDIN);
 
 
 //evaluate
-while ($user_guess != $number) { 
-	if ($user_guess < $number) {
+while ($user_guess != $number) 
+{ 
+	if ($user_guess < $number) 
+{
 	fwrite(STDOUT, "Higher!\n");
-	
 }
-	elseif($user_guess > $number) {
+	elseif($user_guess > $number) 
+{
 	fwrite(STDOUT, "Lower! Try again\n");
-	
 }
-	else {
+	else 
+{
 	fwrite(STDOUT, "WINNNN!\n");
 }	
 	$user_guess = fgets(STDIN);
