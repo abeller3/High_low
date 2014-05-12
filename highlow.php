@@ -32,3 +32,5 @@ echo " Good guess! You got it in {$guess} tries\n";
 
 
 //set if statements
+
+//number of guesses
