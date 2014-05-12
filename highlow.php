@@ -20,10 +20,6 @@ while ($user_guess != $number)
 {
 	fwrite(STDOUT, "Lower! Try again\n");
 }
-	else 
-{
-	fwrite(STDOUT, "WINNNN!\n");
-}	
 	$user_guess = fgets(STDIN);
 	$guess++;
 }
